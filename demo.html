@@ -26,7 +26,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/i18n/jquery-ui-i18n.min.js"></script>
 
-  <script type="text/javascript" src="./js/face-emotion.js"></script>
+  <script type="text/javascript" src="face-emotion.js"></script>
 </head>
 <body>
   <a href=" https://github.com/ktty1220/face-emotion.js"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
@@ -86,7 +86,7 @@
       <button id="2">2</button>
     <div class="box">
       <div class="box-inner">
-        <div id="face"></div>  
+        <div id="face"></div>
       </div>
     </div>
   </div>
@@ -135,7 +135,7 @@
           max: 100,
           change: function (event, ui) {
             $('#opt-state').addClass('exec').text('Executing');
-             
+
 
             face.set(this.id.substr(7), ui.value, {
               animate: $('#opt-animate').is(':checked'),
@@ -152,12 +152,12 @@
   animate: true,
   speed: 20,})
 });*/
-       
+
     });
          m=[1,1.2,1,1.5,1.2,2,4,4.9,4.9,5.6,5,4.6,4.9,4.5,4.7,4.8,4.4,2,1.5,1.4,1,0.5,1.5,1.4,1,0.5,1.5,1.4,1,0.5,1.5,1.4,1,0.5,1.5,1.4,1,0.5,-0.1,-0.1,-0.6,-3,-2,-4,-6,-5.8,-5,-4,-4.8,-4.9,-5,-5,-4.5,-5.9];
         i=0;
          function timeout_callback() {
-            
+
         i++;
         /*$('#1').click(function() {
         face.set('mouth', 100, {
@@ -180,17 +180,17 @@
   mouth: 10*m[i]
 }
                                              );
-                 
+
              }
          }
     //  }
-               
+
 setInterval(timeout_callback,100);
 
-      
+
     });
-          
-     
+
+
   </script>
 </body>
 </html>
