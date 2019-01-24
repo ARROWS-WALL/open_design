@@ -3,7 +3,10 @@
 
 スライド：https://docs.google.com/presentation/d/1FUJQZ1afzgLOExWwfRWfKs4Be6-TPaHCygedhZxEcR4/edit?usp=sharing
 
-実際に動かしたファイル：
+デモで使用したファイル：
 index.html
 main.js
+face-emotion.js
+face-emotion-min.js
+face-emotion.coffee
 
